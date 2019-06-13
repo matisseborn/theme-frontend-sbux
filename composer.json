@@ -1,22 +1,14 @@
 {
     "name": "matisseborn/theme-frontend-sbux",
     "description": "N/A",
-    "config": {
-        "sort-packages": true
-    },
+    "license": "MIT",
+    "type": "magento2-theme",
     "require": {
         "magento/framework": "^101.0.0|^102.0.0",
-        "magento/theme-frontend-luma": "100.3.*"
     },
-    "type": "magento2-theme",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
     "autoload": {
         "files": [
             "registration.php"
         ]
-    },
-    "version": "100.3.1"
+    }
 }
